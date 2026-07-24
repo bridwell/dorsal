@@ -18,7 +18,8 @@ permissions:
 jobs:
   release-build:
     runs-on: ubuntu-latest
-
+    environment: pypi
+    
     steps:
       - uses: actions/checkout@v4
 
